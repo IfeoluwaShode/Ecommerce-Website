@@ -1,0 +1,877 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+/* Styling header */
+header {
+    color: #fff;
+    padding: 40px;
+}
+
+/* Styling navigation */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li { 
+    display: inline;
+    margin-right: 20px;
+   
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.navbar{
+    float: right;
+    margin-top: -28px;
+    position: relative;
+    left: 350px;
+}
+
+.logo img{
+    float: left;
+    width: 160px;
+    height: auto;
+    margin-top: -50px;
+}
+
+.title{
+    margin-left: 150px;
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.next-line{
+    display: block;
+}
+.next-line2{
+    display: block;
+}
+
+h1{
+    color: #000;
+    margin-top: 20px;
+}
+
+/* Styling sections */
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.motto{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+section video {
+    position: relative;
+    top: -450px;
+    width: 600px; 
+    height: auto; 
+    border: 1px solid #ccc; 
+    margin-left: 720px;
+}
+
+.video-container {
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.button{
+    margin-left: 350px;
+    margin-top: 50px;
+    position: relative;
+    top: 50px;
+    background-color:greenyellow;
+    color: white;
+    padding: 20px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.button a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.button img{
+    float: left;
+    width: 20px;
+    height: auto;
+}
+
+.button:hover {
+    background-color: green;
+}
+
+.chat-button img{
+    float: left;
+    width: 40px;
+    height: auto;
+    margin-top: -10px;
+
+}
+
+.chat-button a{
+    color: #000;
+    margin-left: 4px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-top: 2px;
+    font-weight: bold;
+}
+.chat-button{
+    position: relative;
+    top: -14px;
+    margin-left: -306px;
+    background-color: greenyellow;
+    color: white;
+    padding: 20px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px
+}
+
+.chat-button:hover {
+    background-color: green;
+}
+
+.call-button h3{
+    color: #000;
+}
+.call-button {
+    position: relative;
+    top: -92px;
+    background-color: whitesmoke;
+    cursor: auto;
+    color: white;
+    margin-left: 150px;
+    padding: 20px 20px;
+    border-radius: 12px;
+}
+
+.about{
+    position: relative;
+    top: -290px;
+    align-content: center;
+    margin-left: 200px;
+    font-size: 20px;
+    line-height: 40px;
+    width: 80%;
+
+}
+
+.about h2{
+    margin-left: 400px;
+}
+
+.about p {
+    margin-left: 42px;
+    width: 1056px;
+    font-size: larger;
+}
+
+
+.contact{
+    position: relative;
+    top: -290px;
+    margin-left: 600px;
+    background-color:greenyellow;
+    color: white;
+    padding: 20px 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.contact a{
+    margin-left: 4px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-top: 2px;
+    font-weight: bold;
+}
+
+.contact:hover {
+    background-color: green;
+}
+
+.products{
+    position: relative;
+    top: -251px;
+    /* width: 669px; */
+    width: 950px;
+    height: 400px;
+    margin-left: 165px;
+    background-color: #FFF7F7;
+}   
+
+.products h2{
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+.wigs{
+    width: 23%;
+    align-content: center;
+    position: relative;
+    top: 86px;
+    margin-left: 15px;
+}
+.wigs h3{
+    position: relative;
+    top: 5px;
+    margin-left: 40px;  
+}
+.l1{
+    margin-left: 10px;
+}
+.wigs p{
+    line-height: 25px;
+    position: relative;
+    top: 10px;
+}
+.wigs img{
+    width: 20px;
+    border-radius: 4px;
+    margin-left: 50px;
+}
+
+.extensions{
+    width: 25%;
+    height: 10%;
+    position: relative;
+    top: -39px;
+    margin-left: 342px;
+}
+.extensions h3{
+    margin-left: 40px;  
+}
+.extensions img{
+    width: 20px;
+    border-radius: 4px;
+    margin-left: 80px;
+}
+.extensions p{
+    line-height: 25px;
+    position: relative;
+    top: 10px;
+}
+.l2{
+    margin-left: 10px;
+}
+.l3{
+    margin-left: 15px;
+}
+
+.accessories{
+    width: 26%;
+    align-content: center;
+    position: relative;
+    top: -63px;
+    margin-left: 658px;
+}
+.accessories h3{
+    margin-left: 40px;  
+}
+.accessories img{
+    width: 20px;
+    border-radius: 4px;
+    margin-left: 80px;
+}
+.accessories p{
+    line-height: 25px;
+    position: relative;
+    top: 10px
+}
+.l4{
+    margin-left: 10px;
+}
+.l5{
+    margin-left: 20px;
+}
+
+
+
+.model{
+    height: auto;
+    width: 1339px;
+    position: relative;
+    top: -250px;
+}
+
+.section1, .images{
+    margin-bottom: 0;
+    margin: 0;
+    
+}
+
+.section1{
+    display: inline-block;
+}
+
+.text1{
+    position: absolute;
+    top: 1500px;
+    background-color: #fff;
+    height: 191px;
+    width: 342px;
+    text-align: center;
+    left: 104px;
+    padding: 19px 16px;
+}
+.intext1{
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+}
+
+.text2{
+    position: absolute;
+    top: 1700px;
+    background-color: white;
+    height: 191px;
+    width: 342px;
+    text-align: center;
+    left: 895px;
+    padding: 19px 16px;
+
+}
+.intext2{
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+}
+
+.text3{
+    position: absolute;
+    top: 2230px;
+    background-color: white;
+    height: 191px;
+    width: 342px;
+    text-align: center;
+    left: 104px;
+    padding: 19px 16px;
+
+
+}
+.intext3{
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+}
+
+.text4{
+    position: absolute;
+    top: 2535px;
+    background-color: white;
+    height: 191px;
+    width: 342px;
+    text-align: center;
+    left: 860px;
+    padding: 19px 16px;
+
+}
+.intext4{
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+}
+
+
+.images{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #FFF7F7;
+    position: relative;
+    top: -160px;
+    width: 1294px;
+    left: 83px;
+    margin: -68px;
+}
+.images img{
+    width: 340px;
+    height:500px;
+    margin: 47px;
+    object-fit: contain;
+}
+
+.lp {
+    background-color: powderblue;
+    padding: 44px 19px;
+    text-align: center;
+    position: relative;
+    top: -56px;
+    left: 288px;
+    margin: -63px;
+    
+}
+.shop-button{
+    position: relative;
+    top: 10px;
+    background-color: greenyellow;
+    color: white;
+    padding: 20px 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px
+}
+.shop-button a{
+    margin-left: 4px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+/* Styling footer */
+/* footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+} */
+
+
+
+/* Footer styling */
+
+.footer-distributed{
+  background: #666;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 175vw;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+  width: 40%;
+  position: relative;
+  top: -77px;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+  color:  #ffffff;
+  font: normal 36px 'Open Sans', cursive;
+  margin: 0;
+}
+
+.footer-distributed h3 span{
+  color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+  color:  #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  font-weight:400;
+  text-decoration: none;
+  color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+  color:  #222;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+  width: 35%;
+}
+
+.footer-distributed .footer-center i{
+  background-color:  #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+  display: inline-block;
+  color: #ffffff;
+  font-weight:400;
+  vertical-align: middle;
+  margin:0;
+}
+
+.footer-distributed .footer-center p span{
+  display:block;
+  font-weight: normal;
+  font-size:14px;
+  line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+  color:  lightseagreen;
+  text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+  line-height: 20px;
+  color:  whitesmoke;
+  font-size: 11px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+  display: block;
+  color:  #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+  display: inline-block;
+  width: 95px;
+  height: 35px;
+  cursor: pointer;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+.footer-distributed .footer-icons a img{
+    width: 40%;
+}
+
+.footer-distributed img{
+    width: 190px;
+    height: auto;
+}
+/* If you don't want the footer to be responsive, remove these media queries */
+
+
+
+/* @media (max-width: 425px) {
+    .footer-distributed{
+        width: 357%;
+    }
+
+} */
+
+@media (min-width: 1000px) {
+    .footer-distributed{
+        width: 132%;
+    }
+    .lp{
+        left: 155px;
+    }
+}
+
+
+
+/* Media query for screens with a maximum width of 320px */
+@media (max-width: 320px) {
+    .footer-distributed {
+        width: 400%; /* Set width to 400% */
+    }
+    .lp{
+        left: 474px;
+    }
+
+    .button{
+        top:30px
+    }
+}
+
+/* Media query for screens with a width between 321px and 375px */
+@media (min-width: 321px) and (max-width: 375px) {
+    .ig-container{
+        position: relative;
+        top: 20px;
+    }
+
+    .call-button{
+        padding: 14px 13px;
+    }
+
+    .title{
+        position: relative;
+        top: -35px;
+    }
+
+    section video {
+        position: relative;
+        top: -535px;
+        left: -21px;
+    }
+
+    .footer-distributed {
+        width: 353%; /* Set width to 353% */
+    }
+    .lp{
+        left: 445px;
+    }
+}
+
+/* Media query for screens with a width between 376px and 425px */
+@media (min-width: 376px) and (max-width: 389px) {
+    .footer-distributed {
+        width: 310%; /* Set width to 310% */
+    }
+    .lp{
+        left: 445px;
+    }
+}
+
+@media (min-width: 390px) and (max-width: 430px) {
+    .footer-distributed{
+        width: 300%;
+        position: relative;
+        left: 60px;
+    }
+    .lp {
+        position: relative;
+        left: 500px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    /* CSS styles for smartphones */
+    .logo img {
+        width: 120px;
+    }
+
+    .title{
+        font-size: 31px;
+        position: relative;
+        top: -58px;
+        margin-left: 140px;
+    }
+
+    .motto{
+        font-size: 15px;
+        position: relative;
+        top: -38px;
+        margin-left: 140px;    
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    .navbar{
+        font-size: 9px;        
+        margin-top: -10px;
+        margin-right: -300px;
+        position: relative;
+        left: 598px;
+
+    }
+
+    section video{
+        width: 433px;
+        position: relative;
+        top: -508px;
+        margin-left: 635px;
+        
+    }
+
+    .call-button{
+        position: relative;
+        top: -130px;
+        cursor: auto;
+        margin-left: 107px;
+        padding: 20px 10px;
+        border-radius: 10px;
+        font-size: 13px;        
+    }
+
+    .button{
+        position: relative;
+        top: 7px;
+        margin-left: 329px;
+        font-size: 10px;
+        padding: 13px 40px;
+    }
+    .button img{
+        position: relative;
+        top: 17px;
+        margin-left: -14px;
+    }
+
+    .chat-button{
+        position: relative;
+        top: -111px;
+        margin-left: 44px;
+        font-size: 5px;
+        padding: 15px 40px;
+    }
+
+    .about h2 {
+        font-size: 37px;
+        margin: auto;
+        position: relative;
+        left: 419px;
+    }
+
+    .about{
+        font-size: 15px;
+        line-height: 40px;
+        width: 140%;
+        margin-left: 100px;
+    
+    }
+    .about p{
+        width: 1000px;
+    }
+
+    .contact{
+        margin-left: 520px;
+        padding: 15px 40px;
+        position: relative;
+        top: -270px;
+    }
+    .contact a{
+        font-size: larger;
+    }
+
+    .products{
+        width: 932px;
+        height: 355px;
+        margin-left: 140px;
+    }
+
+    .products h2{
+        position: relative;
+        top: 8px;
+    }
+
+    .wigs{
+        width: 30%;
+        font-size: 12px;
+        margin-left: 80px;
+    }
+
+    .wigs img{
+        position: relative;
+        top: -30px;
+    }
+
+    .extensions{
+        width: 30%;
+        position: relative;
+        top: -32px;
+        font-size: 12px;
+        margin-left: 360px;
+    }
+    .extensions h3{
+        margin-left: 28px;
+    }
+    .extensions p{
+        line-height: 21px;
+    }
+    .l3{
+        margin-left: 20px;
+    }
+    .extensions img{
+        position: relative;
+        top: -30px;
+    }
+
+    .accessories{
+        position: relative;
+        top: -65px;
+        margin-left: 630px;
+        font-size: 12px;
+    }
+    .accessories img{
+        position: relative;
+        top: -30px;
+    }
+
+    .model{
+        width: 1175px;
+        height: auto;
+        position: relative;
+        top: -246px;
+        left: 60px;
+    }
+
+    /* .footer-distributed{
+        width: 310%;
+    } */
+    
+}
